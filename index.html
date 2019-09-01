@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script src="https://kit.fontawesome.com/3f48fe1c1c.js"></script>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
-    <div class="status-bar"></div>
-      <div class="status-bar__column"></div>
+    <div class="status-bar">
+      <div class="status-bar__column">
         <span class="status-bar__clock">13:43</span>
-      <div class="status-bar__column"></div>
+      </div>
+      <div class="status-bar__column">
         <i class="fas fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
         <span class="status-bar__battery-level">100%</span>
         <i class="fas fa-battery-full"></i>
+      </div>
     </div>
     <header class="header">
       <div class="header__header-column">
@@ -40,15 +42,15 @@
         <li class="chats__chat">
           <a href="chat.html">
             <div class="chat__column">
-             <img class="chat__avatar" src="images/avatar.jpg"/>
-             <div class="chat__content">
+              <img class="chat__avatar" src="images/avatar.jpg" />
+              <div class="chat__content">
                 <span class="chat__username">
                   Lynn
-               </span>
-               <span class="chat__preview">
+                </span>
+                <span class="chat__preview">
                   Going home
-               </span>
-             </div>
+                </span>
+              </div>
             </div>
             <div class="chat__column">
               <span class="chat__timestamp">Yesterday</span>
@@ -56,7 +58,6 @@
           </a>
         </li>
       </ul>
-
     </main>
     <nav class="nav">
       <ul class="nav__list">
@@ -67,7 +68,8 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
-            <i class="fas fa-comment"></i> 
+            <div class="nav__badge">8</div>
+            <i class="fas fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
