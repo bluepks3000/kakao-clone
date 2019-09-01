@@ -1,0 +1,6 @@
+.status-bar {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
