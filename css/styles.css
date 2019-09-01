@@ -1,0 +1,7 @@
+@import "reset.css";
+@import "status-bar.css";
+body {
+  backgroud-color: white;
+  padding: 10px 20px;
+  color: #020202;
+}
